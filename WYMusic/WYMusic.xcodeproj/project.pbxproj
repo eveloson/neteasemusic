@@ -266,12 +266,12 @@
 				TargetAttributes = {
 					73869437204E911C00A248EB = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = K8WXJENZKT;
+						DevelopmentTeam = 3J99V2UF4S;
 						ProvisioningStyle = Automatic;
 					};
 					73869445204E911D00A248EB = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = K8WXJENZKT;
+						DevelopmentTeam = 3J99V2UF4S;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -474,7 +474,10 @@
 		7386946C204E911D00A248EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = K8WXJENZKT;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dianzhang wu (4JJPUC9G52)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3J99V2UF4S;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WYMusic/Info.plist;
 				MONKEYDEV_CLASS_DUMP = NO;
@@ -483,13 +486,17 @@
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.cloudmusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		7386946D204E911D00A248EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = K8WXJENZKT;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dianzhang wu (4JJPUC9G52)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3J99V2UF4S;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WYMusic/Info.plist;
 				MONKEYDEV_CLASS_DUMP = NO;
@@ -498,13 +505,14 @@
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.cloudmusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		7386946F204E911D00A248EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = K8WXJENZKT;
+				DEVELOPMENT_TEAM = 3J99V2UF4S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -547,8 +555,6 @@
 					"/usr/lib/libstdc++.dylib",
 					"-lsubstrate",
 					"-framework",
-					Cycript,
-					"-framework",
 					RevealServer,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -561,7 +567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = K8WXJENZKT;
+				DEVELOPMENT_TEAM = 3J99V2UF4S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = NO;

@@ -9,7 +9,7 @@
 #import "WYMusicDylib.h"
 #import <CaptainHook/CaptainHook.h>
 #import <UIKit/UIKit.h>
-#import <Cycript/Cycript.h>
+//#import <Cycript/Cycript.h>
 #import "tweak.h"
 #import "SWLTools.h"
 
@@ -19,7 +19,7 @@ static __attribute__((constructor)) void entry(){
     [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidFinishLaunchingNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
         
 #ifndef __OPTIMIZE__
-        CYListenServer(6666);
+//        CYListenServer(6666);
 #endif
         
     }];
